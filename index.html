@@ -37,11 +37,14 @@
         }
 
         .highlight-title {
-            color: var(--accent-color);
-            display: block;
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
+    color: var(--text-main); /* 改回深色 */
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.8; /* 稍微减淡，拉开层级 */
+    margin-top: 5px;
+    letter-spacing: 0.05em;
+}
 
         h2 {
             font-size: 1.5rem;
@@ -88,7 +91,7 @@
 
 <header>
     <h1>Keep Reel</h1>
-    <b>Privacy Policy</b>
+    <span class="highlight-title">PRIVACY POLICY</span>
 </header>
 
 <div class="card">
